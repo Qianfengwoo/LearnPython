@@ -3,8 +3,8 @@
 
 print '请输入任意一个整数数字：'
 
-number = int(raw_input())
-
+number = int(raw_input()) #通过raw_input()输入的数字是字符串
+                          #用int()将该字符串转换为整数
 if number == 10:
     print "您输入的数字是： %d" %number
     print "You are SMART."
