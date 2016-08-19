@@ -13,7 +13,7 @@ while i < 4:
     print '*'*35
     num = input('请输入0到9任何一个数字： ')
     
-    xnum = random.randit(0, 9)
+    xnum = random.randint(0, 9)
 
     x = 3 -i
     
