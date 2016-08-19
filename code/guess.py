@@ -11,7 +11,8 @@ import random
 i = 0
 while i < 4:
     print '*'*35
-    num = input('请输入0到9任何一个数字： ')
+        num = input('请输入0到9任何一个数字： ')
+        print '您输入的不是数字哦！请重新输入一个数字： '
     
     xnum = random.randint(0, 9)
 
