@@ -15,7 +15,7 @@ raw = pd.read_csv('SH600690.csv', names = names, header = None, index_col='date'
 print raw.head()
 print
 
-'''
+#'''
 # 根据涨跌幅判断数据是否有效
 def _valid_price(prices):
     return (((prices.max() - prices.min()) / prices.min()) < 0.223).all()
@@ -86,4 +86,4 @@ print
 rise = data.closing_price.diff()
 data['rise'] = rise
 print data.head()
-'''
+#'''
