@@ -10,7 +10,13 @@ repeat, reshape,resize,squeeze,swapaxes,take,transpose,vsplit,vstack
 ## Quesions
 all,any,nonzero,where
 ## Ordering
-argmax,argmin,argsort,
+argmax,argmin,argsort,max,min,ptp,searchsorted,sort
+## Operations
+choose, compress,cumprod,cumsum,inner,ndarray.fill,imag,prod,put,putmask,real,sum
+## Basic Statistics
+cov, mean,std, var
+## Basic Linear Algebra
+cross, dot, outer, linalg.svd,vdot
 
 
 
